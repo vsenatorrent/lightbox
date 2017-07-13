@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>default</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+  <section class="wrapper">
+    <!--  <div class="container">-->
+    <h2>Lightbox</h2>
+    <div class="content" onclick="currentSlide(1)">
+      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="nature">
+    </div>
+    <div class="content" onclick="currentSlide(2)">
+      <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="fjords">
+    </div>
+    <div class="content" onclick="currentSlide(3)">
+      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="mountain">
+    </div>
+    <div class="content" onclick="currentSlide(4)">
+      <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="lights">
+    </div>
+    <!--  </div>-->
+  </section>
+
+  <!--modal start -->
+  <section class="modalWrapper">
+    <!--  <div class="container">-->
+    <div class="modalContent">
+      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="nature">
+      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
+      <div class="next" onclick="prevnext(1)">&#10095;</div>
+    </div>
+    <div class="modalContent">
+      <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="fjords">
+      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
+      <div class="next" onclick="prevnext(1)">&#10095;</div>
+    </div>
+    <div class="modalContent">
+      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="mountain">
+      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
+      <div class="next" onclick="prevnext(1)">&#10095;</div>
+    </div>
+    <div class="modalContent">
+      <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="lights">
+      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
+      <div class="next" onclick="prevnext(1)">&#10095;</div>
+    </div>
+
+    <p class="caption">CAPTION</p>
+
+    <div class="wrapper">
+      <div class="content" onclick="currentSlide(1)">
+        <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="nature">
+      </div>
+      <div class="content" onclick="currentSlide(2)">
+        <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="fjords">
+      </div>
+      <div class="content" onclick="currentSlide(3)">
+        <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="mountain">
+      </div>
+      <div class="content" onclick="currentSlide(4)">
+        <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="lights">
+      </div>
+    </div>
+
+    <span class="close">
+      &times;
+    </span>
+
+
+
+    <!--  </div>-->
+  </section>
+
+
+  <!--modal end-->
+
+
+
+
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
