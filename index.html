@@ -10,79 +10,33 @@
 </head>
 
 <body>
+  <h1 class="header">Lightbox</h1>
+  <div class="preview">
+    <img src="img/img_nature_wide.jpg" alt="nature" class="preview__image" data-index="0">
+    <img src="img/img_fjords_wide.jpg" alt="fjords" class="preview__image" data-index="1">
+    <img src="img/img_mountains_wide.jpg" alt="mountain" class="preview__image" data-index="2">
+    <img src="img/img_lights_wide.jpg" alt="lights" class="preview__image" data-index="3">
+  </div>
 
-  <section class="wrapper">
-    <!--  <div class="container">-->
-    <h2>Lightbox</h2>
-    <div class="content" onclick="currentSlide(1)">
-      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="nature">
-    </div>
-    <div class="content" onclick="currentSlide(2)">
-      <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="fjords">
-    </div>
-    <div class="content" onclick="currentSlide(3)">
-      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="mountain">
-    </div>
-    <div class="content" onclick="currentSlide(4)">
-      <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="lights">
-    </div>
-    <!--  </div>-->
-  </section>
+  <div class="modal hidden">
+    <div class="modal__image-wrapper">
+      <img src="img/img_nature_wide.jpg" alt="nature" class="modal__image">
+      <div class="modal__prev">&#10094;</div>
+      <div class="modal__next">&#10095;</div>
 
-  <!--modal start -->
-  <section class="modalWrapper">
-    <!--  <div class="container">-->
-    <div class="modalContent">
-      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="nature">
-      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
-      <div class="next" onclick="prevnext(1)">&#10095;</div>
-    </div>
-    <div class="modalContent">
-      <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="fjords">
-      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
-      <div class="next" onclick="prevnext(1)">&#10095;</div>
-    </div>
-    <div class="modalContent">
-      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="mountain">
-      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
-      <div class="next" onclick="prevnext(1)">&#10095;</div>
-    </div>
-    <div class="modalContent">
-      <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="lights">
-      <div class="prev" onclick="prevnext(-1)">&#10094;</div>
-      <div class="next" onclick="prevnext(1)">&#10095;</div>
     </div>
 
-    <p class="caption">CAPTION</p>
-
-    <div class="wrapper">
-      <div class="content" onclick="currentSlide(1)">
-        <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="nature">
-      </div>
-      <div class="content" onclick="currentSlide(2)">
-        <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="fjords">
-      </div>
-      <div class="content" onclick="currentSlide(3)">
-        <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="mountain">
-      </div>
-      <div class="content" onclick="currentSlide(4)">
-        <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="lights">
-      </div>
-    </div>
-
-    <span class="close">
+    <span class="modal__close">
       &times;
     </span>
 
-
-
-    <!--  </div>-->
-  </section>
-
-
-  <!--modal end-->
-
-
+    <div class="preview">
+      <img src="img/img_nature_wide.jpg" alt="nature" class="preview__image"  data-index="0">
+      <img src="img/img_fjords_wide.jpg" alt="fjords" class="preview__image" data-index="1">
+      <img src="img/img_mountains_wide.jpg" alt="mountain" class="preview__image" data-index="2">
+      <img src="img/img_lights_wide.jpg" alt="lights" class="preview__image" data-index="3">
+    </div>
+  </div>
 
 
 
